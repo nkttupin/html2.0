@@ -5,7 +5,9 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     background-color: #f0f0f6
 }
-
+.p_white {
+    color: #eee;
+ }
 .col1{
     background-color: #eee;
     border: solid ipx #aaa;
@@ -32,4 +34,9 @@
     background-image: url(img/armenia_bg2.png);
     min-height:  500px;
 
+}
+.big_red_rentangle{
+    background-color: #F46258;
+    min-height: 325px;
+    
 }
