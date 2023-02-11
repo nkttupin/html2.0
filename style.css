@@ -1,9 +1,12 @@
-H1 {
-    color: #000080;
-    font-size: 200%;
-    font-family: Arial, Verdana, sans-serif;
-    text-align: center;
-  }
-  P {
-    padding-left: 20px;
-  }
+* {
+    box-sizing: border-box;
+}
+ 
+body{
+    margin: 0%;
+    font-size: 30px;
+}
+.col{
+    background-color: #eee;
+    border: solid ipx #aaa;
+}
