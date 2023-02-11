@@ -2,10 +2,7 @@
     box-sizing: border-box;
 }
  
-body{
-    margin: 0%;
-    font-size: 30px;
-}
+
 .col1{
     background-color: #eee;
     border: solid ipx #aaa;
