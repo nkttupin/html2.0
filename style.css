@@ -12,10 +12,19 @@
     border: solid 1px #aaa;
     padding: 20px;
     text-align: center;
-    height: 100%
+    
 }
 .header{
-    min-height: 90px;
+    max-height:  90px;
     /* margin-bottom: 130px;     */
+}
+.armenia_bg1{
+    
+    background-image: url(img/armenia_bg.png);
+
+}
+.armenia_bg2{
+    background-image: url(img/armenia_bg2.png);
+    min-height:  500px;
 
 }
