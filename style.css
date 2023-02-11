@@ -1,7 +1,10 @@
 * {
     box-sizing: border-box;
 }
- 
+.main_container{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #f0f0f6
+}
 
 .col1{
     background-color: #eee;
@@ -21,7 +24,9 @@
 .armenia_bg1{
     
     background-image: url(img/armenia_bg.png);
-
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center;
 }
 .armenia_bg2{
     background-image: url(img/armenia_bg2.png);
