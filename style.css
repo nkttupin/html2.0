@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Poppins:ital,wght@0,500;1,400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter&family=Poppins:ital@1&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,500&display=swap');
 * {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   box-sizing: border-box;
 }
 .main_container {
@@ -22,7 +22,7 @@
   text-align: center;
 }
 .header {
-  max-height: 90px;
+  max-height: 100px;
   /* margin-bottom: 130px;     */
 }
 .armenia_bg1 {
@@ -37,7 +37,7 @@
 }
 .big_red_rentangle {
   background-color: #f46258;
-  min-height: 325px;
+  
 }
 .texnologies {
   min-height: 150px;
@@ -45,7 +45,11 @@
 .working-cases {
   min-height: 500px;
 }
-.navbar-buttons {
-  font-family: "Inter", sans-serif;
-  font-family: "Poppins", sans-serif;
+
+.zagolovok {
+  
+  
+  font-size: xx-large;
+  font-weight: 700;
+
 }
