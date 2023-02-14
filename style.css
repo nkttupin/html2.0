@@ -1,42 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Poppins:ital,wght@0,500;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Poppins:ital@1&display=swap");
 * {
-    box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
 }
-.main_container{
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    background-color: #f0f0f6
+.main_container {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: #f0f0f6;
 }
 .p_white {
-    color: #eee;
- }
-.col1{
-    background-color: #eee;
-    border: solid ipx #aaa;
+  color: #eee;
 }
-.block{
-    background-color: #eee;
-    border: solid 1px #aaa;
-    padding: 20px;
-    text-align: center;
-    
+.col1 {
+  background-color: #eee;
+  border: solid ipx #aaa;
 }
-.header{
-    max-height:  90px;
-    /* margin-bottom: 130px;     */
+.block {
+  background-color: #eee;
+  border: solid 1px #aaa;
+  padding: 20px;
+  text-align: center;
 }
-.armenia_bg1{
-    
-    background-image: url(img/armenia_bg.png);
-    background-repeat: no-repeat !important;
-    background-size: cover !important;
-    background-position: center;
+.header {
+  max-height: 90px;
+  /* margin-bottom: 130px;     */
 }
-.armenia_bg2{
-    background-image: url(img/armenia_bg2.png);
-    min-height:  500px;
-
+.armenia_bg1 {
+  background-image: url(img/armenia_bg.png);
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center;
 }
-.big_red_rentangle{
-    background-color: #F46258;
-    min-height: 325px;
-    
+.armenia_bg2 {
+  background-image: url(img/armenia_bg2.png);
+  min-height: 500px;
+}
+.big_red_rentangle {
+  background-color: #f46258;
+  min-height: 325px;
+}
+.texnologies {
+  min-height: 150px;
+}
+.working-cases {
+  min-height: 500px;
+}
+.navbar-buttons {
+  font-family: "Inter", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
