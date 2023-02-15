@@ -39,6 +39,11 @@
   background-color: #f46258;
   
 }
+.oblasti_znaniy {
+  background: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
 .texnologies {
   min-height: 150px;
 }
@@ -52,4 +57,11 @@
   font-size: xx-large;
   font-weight: 700;
 
+}
+.square {
+  width: 150px;
+  height: 150px;
+  background: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
