@@ -28,8 +28,8 @@
 .armenia_bg1 {
   background-image: url(img/armenia_bg.png);
   background-repeat: no-repeat !important;
-  background-size: cover !important;
-  background-position: center;
+  background-size: contain;
+  background-position: top;
 }
 .armenia_bg2 {
   background-image: url(img/armenia_bg2.png);
