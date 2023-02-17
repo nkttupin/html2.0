@@ -57,7 +57,7 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 .texnologies {
-  min-height: 150px;
+  
 }
 .working-cases {
   min-height: 500px;
@@ -75,8 +75,7 @@
   font-weight: 600;
 }
 .square {
-  width: 150px;
-  height: 150px;
+  
   background: #ffffff;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
