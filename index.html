@@ -18,7 +18,11 @@
   </head>
 
   <body class="" style="background-color: #e0e0e6">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Main Container -->
 
@@ -236,13 +240,14 @@
                     Действия:<br />
                     • Я провел анализ завершенных проектов...
                   </div>
-                  <div class="row gy-3 g-0">
+                  <!-- Кнопка -->
+                  <div class="row g-0 align-items-end">
                     <div class="col-xs-0 col-lg-2"></div>
                     <div class="col text-center g-0 button-read">
                       <!-- Кнопка-триггер модального окна -->
                       <button
                         type="button"
-                        class="btn"
+                        class="btn w-100"
                         data-bs-toggle="modal"
                         data-bs-target="#exampleModal"
                         style="font-weight: 600; white-space: normal"
@@ -293,8 +298,8 @@
                     </div>
                     <div class="col-xs-0 col-lg-2"></div>
                   </div>
-                  
                 </div>
+
                 <div class="col p-4 mx-2 my-2 oblasti_znaniy">
                   <div class="row p-2 p-lg-2 p-xl-3 p-xxl-4 fs-6">
                     <div class="row text-center">
@@ -304,74 +309,75 @@
                         alt="lids"
                       />
                     </div>
-
-                    <div class="col-12 zagolovok2 mb-2 mt-3">
-                      Обьединение Лидов в одну систему
+                    <div class="row">
+                      <div class="col-12 zagolovok2 mb-2 mt-3">
+                        Обьединение Лидов в одну систему
+                      </div>
+                      <div class="col-12">
+                        Задача:<br />
+                        • Необходимо создать воронку продаж для качественной
+                        аналитики. • Необходимо создать систему при которой
+                        прозрачно распределяются лиды между менеджерами, согласно новым принятым регламентам.
+                      </div>
                     </div>
-                    <div class="col-12">
-                      Задача:<br />
-                      • Необходимо создать воронку продаж для качественной
-                      аналитики. • Необходимо создать систему при которой
-                      прозрачно распределяются лиды между менеджерами, согласно
-                      новым регламентам.
-                    </div>
-                    <div class="row gy-3 g-0">
-                      <div class="col-xs-0 col-lg-2"></div>
-                      <div class="col text-center g-0 button-read">
-                        <!-- Кнопка-триггер модального окна -->
-                        <button
-                          type="button"
-                          class="btn"
-                          data-bs-toggle="modal"
-                          data-bs-target="#exampleModal"
-                          style="font-weight: 600; white-space: normal"
-                        >
-                          Читать полностью
-                        </button>
+                  </div>
+                  <!-- Кнопка -->
+                  <div class="row g-0 ">
+                    <div class="col-xs-0 col-lg-2"></div>
+                    <div class="col text-center g-0 button-read">
+                      <!-- Кнопка-триггер модального окна -->
+                      <button
+                        type="button"
+                        class="btn w-100"
+                        data-bs-toggle="modal"
+                        data-bs-target="#exampleModal"
+                        style="font-weight: 600; white-space: normal"
+                      >
+                        Читать полностью
+                      </button>
 
-                        <!-- Модальное окно -->
-                        <div
-                          class="modal fade"
-                          id="exampleModal"
-                          tabindex="-1"
-                          aria-labelledby="exampleModalLabel"
-                          aria-hidden="true"
-                        >
-                          <div class="modal-dialog">
-                            <div class="modal-content">
-                              <div class="modal-header">
-                                <h1
-                                  class="modal-title fs-5"
-                                  id="exampleModalLabel"
-                                >
-                                  Заголовок модального окна
-                                </h1>
-                                <button
-                                  type="button"
-                                  class="btn-close"
-                                  data-bs-dismiss="modal"
-                                  aria-label="Закрыть"
-                                ></button>
-                              </div>
-                              <div class="modal-body">...</div>
-                              <div class="modal-footer">
-                                <button
-                                  type="button"
-                                  class="btn btn-secondary"
-                                  data-bs-dismiss="modal"
-                                >
-                                  Закрыть
-                                </button>
-                                <button type="button" class="btn btn-primary">
-                                  Сохранить изменения
-                                </button>
-                              </div>
+                      <!-- Модальное окно -->
+                      <div
+                        class="modal fade"
+                        id="exampleModal"
+                        tabindex="-1"
+                        aria-labelledby="exampleModalLabel"
+                        aria-hidden="true"
+                      >
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h1
+                                class="modal-title fs-5"
+                                id="exampleModalLabel"
+                              >
+                                Заголовок модального окна
+                              </h1>
+                              <button
+                                type="button"
+                                class="btn-close"
+                                data-bs-dismiss="modal"
+                                aria-label="Закрыть"
+                              ></button>
+                            </div>
+                            <div class="modal-body">...</div>
+                            <div class="modal-footer">
+                              <button
+                                type="button"
+                                class="btn btn-secondary"
+                                data-bs-dismiss="modal"
+                              >
+                                Закрыть
+                              </button>
+                              <button type="button" class="btn btn-primary">
+                                Сохранить изменения
+                              </button>
                             </div>
                           </div>
                         </div>
                       </div>
-                      <div class="col-xs-0 col-lg-2"></div>
                     </div>
+                    <div class="col-xs-0 col-lg-2"></div>
                   </div>
                 </div>
               </div>
