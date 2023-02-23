@@ -90,3 +90,10 @@
   font-size: large;
   font-weight: 600;
 }
+.vertical-line {
+  width: 2px;
+  height: 100%;
+  
+  position: relative;
+}
+
