@@ -6,6 +6,66 @@
     font-weight: 600;
   }
 }
+/* Настройки для экранов шириной менее 576px (sm) */
+@media screen and (max-width: 575.98px) {
+  /* укажите желаемые настройки */
+  .img-year {
+    width: 40%;
+    height: auto;
+    display: inline-block;
+  }
+}
+
+/* Настройки для экранов шириной от 576px до 767.98px (md) */
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+  /* укажите желаемые настройки */
+  .img-year {
+    width: 70%;
+    height: auto;
+    display: inline-block;
+  }
+}
+
+/* Настройки для экранов шириной от 768px до 991.98px (lg) */
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* укажите желаемые настройки */
+  .img-year {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+}
+
+/* Настройки для экранов шириной от 992px до 1199.98px (xl) */
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+  /* укажите желаемые настройки */
+  .img-year {
+    width: 250%;
+    height: auto;
+    display: inline-block;
+  }
+}
+
+/* Настройки для экранов шириной от 1200px до 1399.98px (xxl) */
+@media screen and (min-width: 1200px) and (max-width: 1399.98px) {
+  /* укажите желаемые настройки */
+  .img-year {
+    width: 350%;
+    height: auto;
+    display: inline-block;
+  }
+}
+
+/* Настройки для экранов шириной равной или более 1400px */
+@media screen and (min-width: 1400px) {
+  /* укажите желаемые настройки */
+  .img-year {
+    width: 380%;
+    height: auto;
+  }
+}
+
+
 
 
 * {
