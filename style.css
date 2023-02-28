@@ -13,6 +13,9 @@
     margin-left: 74%;
     width: 1px;
   }
+  .armenia_bg2 {
+    min-height: 300px;
+  }
 }
 
 /* Настройки для экранов шириной от 576px до 767.98px (md) */
@@ -21,6 +24,9 @@
   .vertical-line{
     margin-left: 74%;
     width: 1.5px;
+  }
+  .armenia_bg2 {
+    min-height: 300px;
   }
 }
 
@@ -31,6 +37,9 @@
     margin-left: 72%;
     width: 1.5px;
   }
+  .armenia_bg2 {
+    min-height: 400px;
+  }
 }
 
 /* Настройки для экранов шириной от 992px до 1199.98px (xl) */
@@ -39,6 +48,9 @@
   .vertical-line{
     margin-left: 71%;
     width: 2px;
+  }
+  .armenia_bg2 {
+    min-height: 500px;
   }
 }
 
@@ -49,7 +61,9 @@
     margin-left: 70%;
     width: 2px;
   }
-  
+  .armenia_bg2 {
+    min-height: 500px;
+  }
 }
 
 /* Настройки для экранов шириной равной или более 1400px */
@@ -58,6 +72,9 @@
   .vertical-line{
     margin-left: 70%;
     width: 2px;
+    }
+  .armenia_bg2 {
+    min-height: 500px;
   }
 }
 
@@ -95,7 +112,7 @@
 }
 .armenia_bg2 {
   background-image: url(img/armenia_bg2.png);
-  min-height: 500px;
+  
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
