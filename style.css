@@ -154,6 +154,27 @@
   font-weight: 700;
 
 }
+.nadpis {
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+
+.display-4 {
+   /* пример размера */
+  font-weight: 700 !important;
+  color: #eee;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* добавляем тень */  
+}
+.display-6 {
+  /* пример размера */
+ font-weight: 700 !important;
+ color: #f46258;
+ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* добавляем тень */  
+}
+
+
+
 .zagolovok2 {
   font-size: large;
   font-weight: 600;
