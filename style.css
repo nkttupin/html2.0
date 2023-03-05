@@ -137,9 +137,7 @@
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
-.oblasti_znaniy:hover {
-  box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.2);
-}
+
 .texnologies {
   
 }
@@ -189,9 +187,7 @@
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
-.square:hover{
-  background-color:#eee;
-}
+
 .button-read {
   background: #F46258;
   border-radius: 5px;
