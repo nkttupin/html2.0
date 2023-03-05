@@ -151,7 +151,7 @@
 }
 
 .animation div:first-child {
-  animation: text-animation 20s infinite;
+  animation: text-animation 12s infinite;
 }
 
 
