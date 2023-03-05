@@ -33,6 +33,7 @@
 /* Настройки для экранов шириной от 768px до 991.98px (lg) */
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
   /* укажите желаемые настройки */
+  
   .vertical-line{
     margin-left: 72%;
     width: 1.5px;
@@ -86,7 +87,10 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   background-color: #f0f0f6;
 }
-
+.nav-link:hover{
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* тень */
+}
 .p_white {
   color: #eee;
 }
@@ -94,6 +98,13 @@
   background-color: #eee;
   border: solid ipx #aaa;
 }
+.button-read:hover {
+  background-color: #F0756C; 
+  box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.2);
+  transition: all 0.2s ease-in-out; /* плавное изменение свойств */
+}
+
+
 .block {
   background-color: #eee;
   border: solid 1px #aaa;
@@ -125,6 +136,9 @@
   background: #ffffff;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.oblasti_znaniy:hover {
+  box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.2);
 }
 .texnologies {
   
