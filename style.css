@@ -278,3 +278,9 @@
     background-color: red; /* Цвет подчеркивания при появлении линии*/
     transition: width 0.5s;  /* Время эффекта */
 }
+.rounded-top-gray{
+  background-color: #FFFFFF;
+  border-radius: 10px 10px 0 0;
+  height: 25px;
+  
+}
